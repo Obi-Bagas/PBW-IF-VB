@@ -1,0 +1,163 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    color: #7cb0f3;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Tema toggle posisi di pojok kiri atas */
+.theme-toggle-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.theme-logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Container for layout */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(161, 161, 161);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text center class */
+.text-center {
+    text-align: center;
+}
+
+/* Main title (Selamat Datang) */
+h1 {
+    color: #ffffff; /* Putih terang */
+    margin-bottom: 20px;
+}
+
+/* Section for "Tentang Saya" */
+.about-section {
+    background-color: #add8e6; /* Biru pastel */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    color: #5f5f5f; /* Warna teks lebih gelap untuk kontras */
+}
+
+.about-section p {
+    color: #000000;
+}
+
+/* Section for "Portofolio" */
+.portfolio-section {
+    background-color: #f0f0f0; /* Abu-abu sangat terang */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.portfolio-section img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    margin-bottom: 20px;
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic;
+    margin: 10px 0 20px;
+    padding: 10px;
+    background-color: #646666;
+    border-left: 5px solid #00BFFF;
+    border-radius: 5px;
+    color: #ffffff; /* Warna teks menjadi putih */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #00BFFF;
+    color: white;
+}
+
+/* Warna teks pada bagian Pengalaman Kerja */
+h2, table th, table td {
+    color: #000000; /* Hitam untuk teks */
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Mode malam */
+body.night-mode {
+    background-color: #a9a9a9; /* Abu biasa untuk mode malam */
+    color: #87ceeb; /* Biru langit untuk teks */
+}
+
+body.night-mode .about-section {
+    background-color: #a9a9a9; /* Abu biasa untuk background Tentang Saya */
+    color: #000000; /* Hitam untuk teks dalam Tentang Saya */
+}
+
+body.night-mode .portfolio-section {
+    background-color: #a9a9a9; /* Abu biasa untuk background Portofolio */
+}
+
+body.night-mode footer {
+    color: #87cefa; /* Biru langit lebih terang */
+}
+
+body.night-mode h1 {
+    background-color: #a9a9a9; /* Abu biasa untuk background "Selamat Datang" */
+    color: #000000; /* Hitam untuk teks "Selamat Datang" */
+}
+
+body.night-mode blockquote {
+    color: #000000; /* Warna teks "Sesulit apapun" hitam untuk mode malam */
+}
+
+/* Warna teks untuk kemampuan dan hobi */
+body.night-mode .skills-list li,
+body.night-mode .hobbies-list li {
+    color: #000000; /* Hitam untuk teks di mode malam */
+}
+
+/* Mode awal */
+.skills-list li,
+.hobbies-list li {
+    color: #ffffff; /* Putih untuk teks di mode awal */
+}
