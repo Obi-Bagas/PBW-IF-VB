@@ -8,7 +8,7 @@ Ini adalah aplikasi Todo List sederhana untuk mencatat tugas harian. Aplikasi in
 - **Edit Tugas**: Memungkinkan pengguna untuk mengedit teks tugas.
 - **Tandai Selesai**: Menandai tugas sebagai selesai dengan memberikan tanda silang pada teks.
 - **Hapus Tugas**: Menghapus tugas dari daftar.
-- **Filter Tugas**: Menampilkan tugas yang belum selesai, sudah selesai, atau semuanya.
+- **Filter Tugas**: Menampilkan tugas yang belum selesai, sudah selesai, maupun keseluruhan tugas.
 - **Penyimpanan Lokal**: Menyimpan daftar tugas secara lokal di browser agar tetap tersedia setelah halaman dimuat ulang.
 
 ## Cara Kerja Fungsionalitas

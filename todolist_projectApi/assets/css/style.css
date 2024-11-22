@@ -37,7 +37,7 @@ li {
 
 .notification {
     background-color: #e3f7e3;
-    color: #4CAF50;
+    color: #0c6b0f;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -71,15 +71,15 @@ button {
 }
 
 .update-button {
-    background-color: #bdb216;
+    background-color: #190dca;
 }
 
 .complete-button {
-    background-color: #4CAF50;
+    background-color: #095e0b;
 }
 
 .delete-button {
-    background-color: #c53636;
+    background-color: #e65b5b;
 }
 
 .add-task {
